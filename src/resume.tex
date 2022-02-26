@@ -47,6 +47,7 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
+\newif\ifww
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
@@ -95,10 +96,22 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 % \input{resume/summary.tex}
+
+\wwtrue
+% \wwfalse
+
 \input{resume/skills.tex}
-\input{resume/education.tex}
-\input{resume/experience.tex}
+\ifww
+	\input{resume/experience.tex}
+\else
+	\input{resume/education.tex}
+\fi
 \input{resume/projects.tex}
+\ifww
+	\input{resume/education.tex}
+\else
+	\input{resume/experience.tex}
+\fi
 \input{resume/portfolio.tex}
 
 

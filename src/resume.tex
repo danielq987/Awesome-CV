@@ -97,20 +97,18 @@
 %-------------------------------------------------------------------------------
 % \input{resume/summary.tex}
 
-\wwtrue
-% \wwfalse
+% \wwtrue
+\wwfalse
 
 \input{resume/skills.tex}
 \ifww
 	\input{resume/experience.tex}
-\else
-	\input{resume/education.tex}
-\fi
-\input{resume/projects.tex}
-\ifww
+	\input{resume/projects.tex}
 	\input{resume/education.tex}
 \else
+	\input{resume/education.tex}
 	\input{resume/experience.tex}
+	\input{resume/projects.tex}
 \fi
 \input{resume/portfolio.tex}
 

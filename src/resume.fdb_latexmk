@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1645902183 "resume.xdv" "resume.pdf" "resume" 1645902184
-  "resume.xdv" 1645902182 50888 c9e76ea671a6e50e47021364fae00490 "xelatex"
+["xdvipdfmx"] 1645935250 "resume.xdv" "resume.pdf" "resume" 1645935251
+  "resume.xdv" 1645935250 51000 1903156b13d662f26e7777d999e7e1da "xelatex"
   (generated)
   "resume.pdf"
-["xelatex"] 1645902180 "/home/dqu/Documents/Work/tex_resume/src/resume.tex" "resume.xdv" "resume" 1645902184
-  "/home/dqu/Documents/Work/tex_resume/src/resume.tex" 1645902180 3669 4379459340d4f4df45102d3059079f3a ""
+["xelatex"] 1645935248 "/home/dqu/Documents/Work/tex_resume/src/resume.tex" "resume.xdv" "resume" 1645935251
+  "/home/dqu/Documents/Work/tex_resume/src/resume.tex" 1645935248 3669 d15007fdfd5a8d8d471a029b659f93f6 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1640600964 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1640600964 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1640600964 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -166,15 +166,15 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1640600964 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1645670671 5548500 f7656dd3e5aaf9f17d5d47c1a730ae11 ""
   "awesome-cv.cls" 1645856500 30201 37c7c35a099fc87cc0cdcac435a421a7 ""
-  "resume.aux" 1645902182 652 9af601cce4e905234811cb740f97ee79 "xelatex"
-  "resume.out" 1645902182 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "resume.tex" 1645902180 3669 4379459340d4f4df45102d3059079f3a ""
+  "resume.aux" 1645935250 652 9af601cce4e905234811cb740f97ee79 "xelatex"
+  "resume.out" 1645935250 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "resume.tex" 1645935248 3669 d15007fdfd5a8d8d471a029b659f93f6 ""
   "resume/driverdisplay.png" 1645853587 528375 a30048c28a0a584e471434734ae2bbb3 ""
   "resume/education.tex" 1645857264 728 d31d44b1321ce176fc97ebf35c1a6d90 ""
-  "resume/experience.tex" 1645857209 2582 22b811d7d8c22068c636112ba1a18145 ""
+  "resume/experience.tex" 1645935099 2582 22b811d7d8c22068c636112ba1a18145 ""
   "resume/portfolio.tex" 1645902127 2207 36bf46a7995f52917761f2ea18089b1b ""
   "resume/projects.tex" 1645857174 2508 7250fc480567e2042cd8ebd6b6e28f6a ""
-  "resume/skills.tex" 1645841505 942 9a5e0be52624d8a8c37fae1acf7797e7 ""
+  "resume/skills.tex" 1645935125 954 462978eb661b8eab54e237d0eb4e7620 ""
   "resume/spotify.png" 1645856675 312151 9567f6f78e1311f8b01b6be0de586599 ""
   "resume/wec.png" 1645855208 97520 9f466a74ec9d231aa3df5875ea77545e ""
   (generated)

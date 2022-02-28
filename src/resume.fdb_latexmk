@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1645935250 "resume.xdv" "resume.pdf" "resume" 1645935251
-  "resume.xdv" 1645935250 51000 1903156b13d662f26e7777d999e7e1da "xelatex"
+["xdvipdfmx"] 1646031576 "resume.xdv" "resume.pdf" "resume" 1646031577
+  "resume.xdv" 1646031576 52312 b177dd798929484270542576d474a229 "xelatex"
   (generated)
   "resume.pdf"
-["xelatex"] 1645935248 "/home/dqu/Documents/Work/tex_resume/src/resume.tex" "resume.xdv" "resume" 1645935251
-  "/home/dqu/Documents/Work/tex_resume/src/resume.tex" 1645935248 3669 d15007fdfd5a8d8d471a029b659f93f6 ""
+["xelatex"] 1646031574 "/home/dqu/Documents/Work/tex_resume/src/resume.tex" "resume.xdv" "resume" 1646031577
+  "/home/dqu/Documents/Work/tex_resume/src/resume.tex" 1646031572 3669 1f5e95898d0c670c35fa0c4869d0a0a9 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1640600964 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1640600964 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1640600964 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -165,12 +165,12 @@
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1640600964 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1640600964 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1645670671 5548500 f7656dd3e5aaf9f17d5d47c1a730ae11 ""
-  "awesome-cv.cls" 1645856500 30201 37c7c35a099fc87cc0cdcac435a421a7 ""
-  "resume.aux" 1645935250 652 9af601cce4e905234811cb740f97ee79 "xelatex"
-  "resume.out" 1645935250 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "resume.tex" 1645935248 3669 d15007fdfd5a8d8d471a029b659f93f6 ""
+  "awesome-cv.cls" 1646029235 30201 37c7c35a099fc87cc0cdcac435a421a7 ""
+  "resume.aux" 1646031576 652 9af601cce4e905234811cb740f97ee79 "xelatex"
+  "resume.out" 1646031576 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "resume.tex" 1646031572 3669 1f5e95898d0c670c35fa0c4869d0a0a9 ""
   "resume/driverdisplay.png" 1645853587 528375 a30048c28a0a584e471434734ae2bbb3 ""
-  "resume/education.tex" 1645857264 728 d31d44b1321ce176fc97ebf35c1a6d90 ""
+  "resume/education.tex" 1646027352 905 e8750d4b4563f520279ab41491634a7d ""
   "resume/experience.tex" 1645935099 2582 22b811d7d8c22068c636112ba1a18145 ""
   "resume/portfolio.tex" 1645902127 2207 36bf46a7995f52917761f2ea18089b1b ""
   "resume/projects.tex" 1645857174 2508 7250fc480567e2042cd8ebd6b6e28f6a ""

@@ -8,6 +8,8 @@
 *.out
 *.toc
 
+src/resume.pdf
+
 ## Intermediate documents:
 *.dvi
 *-converted-to.*

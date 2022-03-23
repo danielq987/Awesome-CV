@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1648008814 "resume.xdv" "resume.pdf" "resume" 1648008816
-  "resume.xdv" 1648008814 61008 610cdec8d3a8e3c198632cfae8dc9f6e "xelatex"
+["xdvipdfmx"] 1648009465 "resume.xdv" "resume.pdf" "resume" 1648009467
+  "resume.xdv" 1648009465 61088 ca981104e9e3f45fb95a736d8b3f1204 "xelatex"
   (generated)
   "resume.pdf"
-["xelatex"] 1648008812 "/home/dqu/Documents/Work/tex_resume/src/resume.tex" "resume.xdv" "resume" 1648008816
+["xelatex"] 1648009463 "/home/dqu/Documents/Work/tex_resume/src/resume.tex" "resume.xdv" "resume" 1648009467
   "/home/dqu/Documents/Work/tex_resume/src/resume.tex" 1648008812 3667 feab6aa2b5ac80a651c80d0a7e09ed82 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1640600964 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1640600964 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -166,12 +166,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1640600964 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1645670671 5548500 f7656dd3e5aaf9f17d5d47c1a730ae11 ""
   "awesome-cv.cls" 1646703570 30201 e5c9c3d1aee53119c28a111a92a85cdf ""
-  "resume.aux" 1648008814 652 9af601cce4e905234811cb740f97ee79 "xelatex"
-  "resume.out" 1648008814 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "resume.aux" 1648009465 652 9af601cce4e905234811cb740f97ee79 "xelatex"
+  "resume.out" 1648009465 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
   "resume.tex" 1648008812 3667 feab6aa2b5ac80a651c80d0a7e09ed82 ""
   "resume/driverdisplay.png" 1645853587 528375 a30048c28a0a584e471434734ae2bbb3 ""
   "resume/education.tex" 1646027352 905 e8750d4b4563f520279ab41491634a7d ""
-  "resume/experience.tex" 1646703666 2770 34e27826fb66f24cb7fdefee6077b197 ""
+  "resume/experience.tex" 1648009463 2778 c105bea83c51f866bfdc284f0ba85188 ""
   "resume/hexle.png" 1648006620 35589 ea783e40e0c958a764f145315197c9de ""
   "resume/portfolio.tex" 1648007305 2945 7ad5a0c4fbd39e5969898184b2edfc32 ""
   "resume/projects.tex" 1648006991 2666 ff94d3683a8b08a6c3711226d5207a54 ""

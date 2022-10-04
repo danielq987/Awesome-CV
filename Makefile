@@ -1,4 +1,4 @@
-.PHONY: examples
+.PHONY: examples resume.pdf cv.pdf coverletter.pdf
 
 CC = xelatex
 EXAMPLES_DIR = examples
@@ -8,22 +8,22 @@ RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
 CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
 SRC_DIR = src
 
-examples: $(foreach x, coverletter cv resume, $x.pdf)
-
-resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
-
-cv.pdf: $(EXAMPLES_DIR)/cv.tex $(CV_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
-
-coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+#examples: $(foreach x, coverletter cv resume, $x.pdf)
+#
+#resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_SRCS)
+#	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+#
+#cv.pdf: $(EXAMPLES_DIR)/cv.tex $(CV_SRCS)
+#	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+#
+#coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex
+#	$(CC) -output-directory=$(EXAMPLES_DIR) $<
 
 export:
-	cp $(SRC_DIR)/resume.pdf daniel_qu_resume.pdf
+	cp $(SRC_DIR)/out/resume.pdf daniel-qu-resume$(shell date --iso=seconds).pdf
 
 exportww:
-	cp $(SRC_DIR)/resume.pdf daniel_qu_resume_ww.pdf
+	cp $(SRC_DIR)/out/resume.pdf daniel-qu-resume-ww$(shell date --iso=seconds).pdf
 
 clean:
 	rm -rf $(EXAMPLES_DIR)/*.pdf

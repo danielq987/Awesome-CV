@@ -22,4 +22,4 @@ src/resume.pdf
 ### Mac OS X ###
 ## Mac OS X metadata files:
 *.DS_Store
-
+src/out/

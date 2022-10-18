@@ -1,15 +1,18 @@
 # Fdb version 3
-["xdvipdfmx"] 1664859271 "out/resume.xdv" "out/resume.pdf" "out/resume" 1664859272
-  "out/resume.xdv" 1664859271 60920 c2e7164b830c8fa66445fe038e48fb7a "xelatex"
+["xdvipdfmx"] 1666076854 "out/resume.xdv" "out/resume.pdf" "out/resume" 1666076855
+  "out/resume.xdv" 1666076854 57796 07065777d32e3179cf447d000ee0a34e "xelatex"
   (generated)
   "out/resume.pdf"
-["xelatex"] 1664859268 "/home/dqu/code/danielq987/resume/src/resume.tex" "out/resume.xdv" "resume" 1664859272
-  "/home/dqu/code/danielq987/resume/src/resume.tex" 1664759240 3667 feab6aa2b5ac80a651c80d0a7e09ed82 ""
+["xelatex"] 1666076851 "/home/dqu/code/danielq987/resume/src/resume.tex" "out/resume.xdv" "resume" 1666076855
+  "/home/dqu/code/danielq987/resume/src/resume.tex" 1666076752 3668 4974dc1b131cd23189ccc07f1eb01ea6 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1650183167 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1650183167 1528 abec98dbc43e172678c11b3b9031252a ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1650183167 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm" 1650183167 1508 3b32edd0d68f6498a5a375e78f9edc5e ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1650183167 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm" 1650183167 1528 e2423ae06dc7dee599cceb79d1c9dc32 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1650183167 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1650183167 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1650183167 40635 c40361e206be584d448876bba8a64a3b ""
   "/usr/share/texmf-dist/tex/generic/bitset/bitset.sty" 1650183167 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -164,17 +167,17 @@
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1650183167 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1651687044 5825169 b38b57fb5cf9ec5e905b6856c6598009 ""
-  "awesome-cv.cls" 1664859268 30187 6a258b9adb616efe33afe3ff58202ce2 ""
-  "out/resume.aux" 1664859271 652 9af601cce4e905234811cb740f97ee79 "xelatex"
+  "awesome-cv.cls" 1666076851 30191 734d50c6759af6946ae9aeb9c43c3e1d ""
+  "out/resume.aux" 1666076854 652 9af601cce4e905234811cb740f97ee79 "xelatex"
   "out/resume.out" 0 -1 0 "xelatex"
-  "resume.tex" 1664759240 3667 feab6aa2b5ac80a651c80d0a7e09ed82 ""
+  "resume.tex" 1666076752 3668 4974dc1b131cd23189ccc07f1eb01ea6 ""
   "resume/driverdisplay.png" 1664759240 528375 a30048c28a0a584e471434734ae2bbb3 ""
-  "resume/education.tex" 1664770136 899 f43fce46a7e3a62d6345863d569d8289 ""
-  "resume/experience.tex" 1664859094 3332 20c90eb8c519a2bcbd37c3129a4f355b ""
+  "resume/education.tex" 1666073079 886 fe4a5c790c70f806ac85ebebc4c095b8 ""
+  "resume/experience.tex" 1666076281 3330 ea166f5a806c843df4a6b54dd98c35b0 ""
   "resume/hexle.png" 1664759240 35589 ea783e40e0c958a764f145315197c9de ""
-  "resume/portfolio.tex" 1664759240 2945 7ad5a0c4fbd39e5969898184b2edfc32 ""
-  "resume/projects.tex" 1664759800 2690 60fe88555df2bb2439da79b9ec5d6aae ""
-  "resume/skills.tex" 1664858688 929 176e52b91ff80a20785f50e556a2ca15 ""
+  "resume/portfolio.tex" 1666076742 2864 addcf44ea139f13ffc3b2311a42e1905 ""
+  "resume/projects.tex" 1666076087 2519 afb6c6053b5fdd4a383645953bf2144b ""
+  "resume/skills.tex" 1666073655 969 9d91cdb35cab19e81aa32b49f86a7534 ""
   "resume/spotify.png" 1664759240 312151 9567f6f78e1311f8b01b6be0de586599 ""
   "resume/wec.png" 1664759240 97520 9f466a74ec9d231aa3df5875ea77545e ""
   (generated)

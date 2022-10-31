@@ -18,12 +18,15 @@ SRC_DIR = src
 #
 #coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex
 #	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+OUT_FILE = out/daniel-qu-resume$(shell date --iso=seconds).pdf
 
 export:
-	cp $(SRC_DIR)/out/resume.pdf daniel-qu-resume$(shell date --iso=seconds).pdf
+	cp $(SRC_DIR)/out/resume.pdf $(OUT_FILE)
+	qpdf $(OUT_FILE) --pages . 1 -- daniel-qu-resume.pdf
+	qpdf $(OUT_FILE) --pages . 2-3 -- daniel-qu-portfolio.pdf
 
 exportww:
-	cp $(SRC_DIR)/out/resume.pdf daniel-qu-resume-ww$(shell date --iso=seconds).pdf
+	cp $(SRC_DIR)/out/resume.pdf out/daniel-qu-resume-ww$(shell date --iso=seconds).pdf
 
 clean:
 	rm -rf $(EXAMPLES_DIR)/*.pdf

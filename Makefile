@@ -18,15 +18,18 @@ SRC_DIR = src
 #
 #coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex
 #	$(CC) -output-directory=$(EXAMPLES_DIR) $<
-OUT_FILE = out/daniel-qu-resume$(shell date --iso=seconds).pdf
+OUT_FILE = out/daniel-qu-resume$(shell date +%s).pdf
+HOST_PATH = ~/www/daniel-qu-resume.pdf
+HFCS = d3qu@hfcs.csclub.uwaterloo.ca
 
 export:
 	cp $(SRC_DIR)/out/resume.pdf $(OUT_FILE)
 	qpdf $(OUT_FILE) --pages . 1 -- daniel-qu-resume.pdf
 	qpdf $(OUT_FILE) --pages . 2-3 -- daniel-qu-portfolio.pdf
+	scp $(OUT_FILE) $(HFCS):$(HOST_PATH)
 
 exportww:
-	cp $(SRC_DIR)/out/resume.pdf out/daniel-qu-resume-ww$(shell date --iso=seconds).pdf
+	cp $(SRC_DIR)/out/resume.pdf out/daniel-qu-resume-ww$(shell date +%s).pdf
 
 clean:
 	rm -rf $(EXAMPLES_DIR)/*.pdf

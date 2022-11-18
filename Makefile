@@ -28,6 +28,8 @@ export:
 	cp $(SRC_DIR)/out/resume.pdf $(OUT_FILE)
 	qpdf $(OUT_FILE) --pages . 1 -- $(RESUME)
 	qpdf $(OUT_FILE) --pages . 2-3 -- $(PORTFOLIO)
+
+upload:
 	scp $(RESUME) $(PORTFOLIO) $(HFCS):$(HOST_PATH)
 
 exportww:

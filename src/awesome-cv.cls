@@ -199,6 +199,7 @@
 
 % For elements of entry
 \newcommand*{\entrytitlestyle}[1]{{\fontsize{12pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\entrysubtitlestyle}[1]{{\fontsize{12pt}{1em}\bodyfont\upshape\color{darktext} #1}}
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{10pt}{1em}\bodyfont\scshape\color{darktext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\slshape\color{graytext} #1}}
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{10pt}{1em}\bodyfont\slshape\color{darktext} #1}}
@@ -419,7 +420,7 @@
 \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
 
 % Others
-\newcommand{\acvSectionTopSkip}{1mm}
+\newcommand{\acvSectionTopSkip}{2mm}
 \newcommand{\acvSectionContentTopSkip}{2.5mm}
 
 
@@ -661,8 +662,8 @@
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 5.5cm} R{5.5cm}}
-    \ifempty{#2#3}
-      {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+    \ifempty{#3}
+      {\entrytitlestyle{#1} - \entrysubtitlestyle{#2} \ & \entrydatestyle{#4} \\}
       {\entrytitlestyle{#2} & \entrylocationstyle{#4} \\
       \entrypositionstyle{#1} & \entrydatestyle{#3} \\}
     \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}

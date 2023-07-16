@@ -22,18 +22,20 @@ OUT_FILE = out/daniel-qu-resume$(shell date +%s).pdf
 HOST_PATH = ~/www/
 HFCS = d3qu@hfcs.csclub.uwaterloo.ca
 RESUME = daniel-qu-resume.pdf
+RESUME_EXTERNAL = daniel-qu-resume-external.pdf
 PORTFOLIO = daniel-qu-portfolio.pdf
 
 export:
-	cp $(SRC_DIR)/out/resume.pdf $(OUT_FILE)
+	cp $(SRC_DIR)/resume.pdf $(OUT_FILE)
 	qpdf $(OUT_FILE) --pages . 1 -- $(RESUME)
 	qpdf $(OUT_FILE) --pages . 2-r1 -- $(PORTFOLIO)
 
 upload:
 	scp $(RESUME) $(PORTFOLIO) $(HFCS):$(HOST_PATH)
 
-exportww:
-	cp $(SRC_DIR)/out/resume.pdf out/daniel-qu-resume-ww$(shell date +%s).pdf
+export_external:
+	cp $(SRC_DIR)/out/resume.pdf $(OUT_FILE)
+	qpdf $(OUT_FILE) --pages . 1 -- $(RESUME_EXTERNAL)
 
 clean:
 	rm -rf $(EXAMPLES_DIR)/*.pdf
